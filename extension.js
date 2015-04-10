@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "choccat";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -18,7 +18,6 @@
         /*
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
-
          bot.commands.commandCommand = {
          command: 'cmd',
          rank: 'user/bouncer/mod/manager',
@@ -31,7 +30,6 @@
          }
          }
          }
-
          */
 
         bot.commands.baconCommand = {
