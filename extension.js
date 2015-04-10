@@ -52,14 +52,14 @@
 
     //Change the bots default settings and make sure they are loaded on launch
 
-    localStorage.setItem("smashBotsettings", JSON.stringify({
+    localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "SmashBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/" + fork + "/smashBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -106,12 +106,12 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/smashBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/smashBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/choccat/smashBot/master/smashBot.js", extend);
+    $.getScript("https://rawgit.com/choccat/basicBot/master/basicBot.js", extend);
 
 }).call(this);
