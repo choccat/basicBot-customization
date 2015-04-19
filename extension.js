@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Choccat";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -53,17 +53,17 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "smashBot",
+        botName: "SmashBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: true, // true or false
-        cmdDeletion: true,
+        cmdDeletion: false,
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 1200,
         afkRemoval: false,
         maximumDc: 60,
-        bouncerPlus: false,
+        bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -96,11 +96,11 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "http://smashroyale.com/forums/index.php?threads/plugdj-rules.499/",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "http://smashroyale.com",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
@@ -112,6 +112,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Choccat/basicBot/master/basicBot.js", extend);
 
 }).call(this);
