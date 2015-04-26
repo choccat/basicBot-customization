@@ -75,9 +75,9 @@
         timeGuard: true,
         maximumSongLength: 8,
         autodisable: false,
-        commandCooldown: 1,
+        commandCooldown: 2,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 2,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
