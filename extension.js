@@ -97,7 +97,7 @@
         welcome: true,
         opLink: null,
         rulesLink: "http://smashroyale.com/forums/index.php?threads/plugdj-rules.499",
-        themeLink: null,
+        themeLink: "EDM",
         fbLink: null,
         youtubeLink: null,
         website: "http://smashroyale.com",
