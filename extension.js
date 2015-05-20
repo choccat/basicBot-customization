@@ -108,9 +108,9 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            Troll: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/troll.json",
             OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json",
-            Troll: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/troll.json"
+            NSFW: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/ExampleNSFWlist.json"
         }
     }));
 
